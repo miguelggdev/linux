@@ -28,6 +28,7 @@ Clona el repositorio o descarga el script:
 git clone https://github.com/tu-usuario/maininfolinux.git
 
 ```
+```
 cd maininfolinux
 
 ```
