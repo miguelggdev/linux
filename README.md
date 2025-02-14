@@ -39,7 +39,7 @@ chmod +x maininfolinux.sh
 
 ```
 
-## Ejecución
+## Ejecución 
 Ejecuta el script con permisos de superusuario:
 
 ```
@@ -92,6 +92,3 @@ _Ejecuta el script con sudo._
 _Revisión de logs: Usa la tecla q para salir de la visualización de logs._
 _Instalación de dependencias: Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.)_
 _Personalización: Puedes modificar el script para adaptarlo a tus necesidades específicas._
-
-## Wiki 📖
-
