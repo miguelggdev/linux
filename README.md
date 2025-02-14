@@ -85,7 +85,6 @@ Para salir de la visualización de logs, presiona la tecla q.
 
 _Fedora Linux 40_
 
-## Contribuyendo 🖇️
 ## Recomendaciones📦
 ### _Ejecución con superusuario_
 _Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario._
@@ -96,23 +95,19 @@ _Usa la tecla q para salir de la visualización de logs._</br>
 _Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.)_
 _Personalización: Puedes modificar el script para adaptarlo a tus necesidades específicas._
 
-## Contribuciones
+## Contribuciones🖇️
 Si deseas contribuir a este proyecto, sigue estos pasos:
 
-Haz un fork del repositorio.
-
-Crea una rama para tu contribución (git checkout -b mi-contribucion).
-
-Realiza tus cambios y haz commit (git commit -m "Agrega nueva funcionalidad").
-
-Haz push a la rama (git push origin mi-contribucion).
-
-Abre un Pull Request en GitHub.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu contribución (git checkout -b mi-contribucion).
+3. Realiza tus cambios y haz commit (git commit -m "Agrega nueva funcionalidad").
+4. Haz push a la rama (git push origin mi-contribucion).
+5. Abre un Pull Request en GitHub.
 
 ## Licencia
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
 ## Contacto
-Autor: MiguelGG
-Correo: mgonzalez@opensai.org
-GitHub: github.com/tu-usuario
+Autor: MiguelGG</br>
+Correo: mgonzalez@opensai.org</br>
+GitHub: github.com/tu-usuario</br>
