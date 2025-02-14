@@ -5,14 +5,14 @@ _MainInfoLinux es un script en Bash creado para proporcionar un diagnóstico com
 Scripts bash maininfolinux.sh
 ## Comenzando 🚀
 _El script maininfolinux.sh permite a los usuarios obtener un informe detallado del estado de su sistema Linux, incluyendo:_
-_Información del sistema (hostname, kernel, arquitectura, etc.)._
-_Uso de recursos (CPU, memoria, disco)._
-_Estado de servicios (Apache, Nginx, MySQL, PostgreSQL)._
-_Puertos abiertos y conexiones de red._
-_Información de hardware (USBs, dispositivos PCI, tarjetas de red)._
-_Logs del sistema (últimos errores)._
-_Tráfico de red (últimos 3 días)._
-_El script es interactivo: después de mostrar cada sección, pide confirmación para continuar, lo que permite al usuario revisar la información paso a paso._
+*_Información del sistema (hostname, kernel, arquitectura, etc.)._
+*_Uso de recursos (CPU, memoria, disco)._
+*_Estado de servicios (Apache, Nginx, MySQL, PostgreSQL)._
+*_Puertos abiertos y conexiones de red._
+*_Información de hardware (USBs, dispositivos PCI, tarjetas de red)._
+*_Logs del sistema (últimos errores)._
+*_Tráfico de red (últimos 3 días)._
+*_El script es interactivo: después de mostrar cada sección, pide confirmación para continuar, lo que permite al usuario revisar la información paso a paso._
 
 ### Pre-requisitos 📋
 
@@ -56,29 +56,29 @@ Después de cada sección, presiona Enter para continuar.
 Para salir de la visualización de logs, presiona la tecla q.
 
 ## Secciones del Script⚙️
-* Información del sistema: 
+### Información del sistema: 
 * Hostname, kernel, arquitectura, etc.
-Uso de la CPU: Carga promedio.
-Uso de la memoria: Memoria RAM y swap.
-Uso del disco: Espacio en discos y particiones.
-Espacio en el directorio Home: Uso de espacio en /home.
-Procesos en ejecución: Top 10 procesos que consumen CPU.
-Conexiones de red: Puertos abiertos y conexiones activas.
-Dispositivos de bloque: Discos y particiones.
-Chequeo de errores en logs: Últimos 50 errores del sistema.
-Estado de servicios: Estado de Apache, Nginx, MySQL, PostgreSQL.
-Estado del firewall: Estado del firewall (Firewalld).
-Estado de SELinux: Estado y modo de SELinux.
-Zona horaria: Configuración de la zona horaria.
-Puertos abiertos: Lista de puertos abiertos.
-IP local y pública: Direcciones IP del sistema.
-Usuarios y grupos: Lista de usuarios y grupos.
-Tarjetas de red: Información de las interfaces de red.
-Tráfico de red: Tráfico de red en los últimos 3 días.
-Kernels instalados: Lista de kernels instalados.
-USBs conectados: Dispositivos USB conectados.
-Dispositivos PCI: Lista de dispositivos PCI.
-Información del hardware: Resumen del hardware del sistema.
+* Uso de la CPU: Carga promedio.
+* Uso de la memoria: Memoria RAM y swap.
+* Uso del disco: Espacio en discos y particiones.
+* Espacio en el directorio Home: Uso de espacio en /home.
+* Procesos en ejecución: Top 10 procesos que consumen CPU.
+* Conexiones de red: Puertos abiertos y conexiones activas.
+* Dispositivos de bloque: Discos y particiones.
+* Chequeo de errores en logs: Últimos 50 errores del sistema.
+* Estado de servicios: Estado de Apache, Nginx, MySQL, PostgreSQL.
+* Estado del firewall: Estado del firewall (Firewalld).
+* Estado de SELinux: Estado y modo de SELinux.
+* Zona horaria: Configuración de la zona horaria.
+* Puertos abiertos: Lista de puertos abiertos.
+* IP local y pública: Direcciones IP del sistema.
+* Usuarios y grupos: Lista de usuarios y grupos.
+* Tarjetas de red: Información de las interfaces de red.
+* Tráfico de red: Tráfico de red en los últimos 3 días.
+* Kernels instalados: Lista de kernels instalados.
+* USBs conectados: Dispositivos USB conectados.
+* Dispositivos PCI: Lista de dispositivos PCI.
+* Información del hardware: Resumen del hardware del sistema.
 
 ## Construido con 🛠️
 
