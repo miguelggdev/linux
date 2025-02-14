@@ -5,28 +5,26 @@ _MainInfoLinux es un script en Bash creado para proporcionar un diagnóstico com
 Scripts bash maininfolinux.sh
 ## Comenzando 🚀
 _El script maininfolinux.sh permite a los usuarios obtener un informe detallado del estado de su sistema Linux, incluyendo:_
-
 _Información del sistema (hostname, kernel, arquitectura, etc.)._
-Uso de recursos (CPU, memoria, disco).
-Estado de servicios (Apache, Nginx, MySQL, PostgreSQL).
-Puertos abiertos y conexiones de red.
-Información de hardware (USBs, dispositivos PCI, tarjetas de red).
-Logs del sistema (últimos errores).
-Tráfico de red (últimos 3 días).
-El script es interactivo: después de mostrar cada sección, pide confirmación para continuar, lo que permite al usuario revisar la información paso a paso.
+_Uso de recursos (CPU, memoria, disco)._
+_Estado de servicios (Apache, Nginx, MySQL, PostgreSQL)._
+_Puertos abiertos y conexiones de red._
+_Información de hardware (USBs, dispositivos PCI, tarjetas de red)._
+_Logs del sistema (últimos errores)._
+_Tráfico de red (últimos 3 días)._
+_El script es interactivo: después de mostrar cada sección, pide confirmación para continuar, lo que permite al usuario revisar la información paso a paso._
 
 ### Pre-requisitos 📋
 
-Distribución Linux (optimizado para Fedora).
-Permisos de superusuario (root) para algunas funcionalidades.
-Herramientas comunes instaladas (curl, vnstat, lshw, lsusb, lspci, etc.).
+_Distribución Linux (optimizado para Fedora)._
+_Permisos de superusuario (root) para algunas funcionalidades._
+_Herramientas comunes instaladas (curl, vnstat, lshw, lsusb, lspci, etc.)_
 
 ### Instalación 🔧
 
 Clona el repositorio o descarga el script:
 
 ```
-
 git clone https://github.com/tu-usuario/maininfolinux.git
 
 ```
@@ -99,7 +97,7 @@ _Explica que verifican estas pruebas y por qué_
 Da un ejemplo
 ```
 
-## Despliegue 📦
+## Despliegue 
 
 _Agrega notas adicionales sobre como hacer deploy_
 
@@ -107,16 +105,14 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 Fedora Linux 40
 
-
 ## Contribuyendo 🖇️
-## Recomendaciones
-Ejecución con superusuario: Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario. Ejecuta el script con sudo.
-
-Revisión de logs: Usa la tecla q para salir de la visualización de logs.
-
-Instalación de dependencias: Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.).
-
-Personalización: Puedes modificar el script para adaptarlo a tus necesidades específicas.
+## Recomendaciones📦
+_Ejecución con superusuario:_
+_Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario._
+_Ejecuta el script con sudo._
+_Revisión de logs: Usa la tecla q para salir de la visualización de logs._
+_Instalación de dependencias: Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.)_
+_Personalización: Puedes modificar el script para adaptarlo a tus necesidades específicas._
 
 ## Wiki 📖
 
