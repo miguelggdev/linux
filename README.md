@@ -3,6 +3,7 @@
 _MainInfoLinux es un script en Bash creado para proporcionar un diagnóstico completo del sistema en distribuciones Linux, especialmente optimizado para Fedora. Este script recopila información detallada sobre el hardware, el sistema operativo, la red,servicios,logs, de manera interactiva y fácil de usar._
 
 ## Scripts bash maininfolinux.sh
+
 ## Comenzando 🚀
 _El script maininfolinux.sh permite a los usuarios obtener un informe detallado del estado de su sistema Linux, incluyendo:_
 * _Información del sistema (hostname, kernel, arquitectura, etc.)._</br>
@@ -86,11 +87,11 @@ _Fedora Linux 40_
 
 ## Contribuyendo 🖇️
 ## Recomendaciones📦
-### _Ejecución con superusuario
+### _Ejecución con superusuario_
 __Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario._
 _Ejecuta el script con sudo._</br>
-### _Revisión de logs
+### _Revisión de logs_
 _Usa la tecla q para salir de la visualización de logs._</br>
 ### _Instalación de dependencias_
-Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.)_
+_Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.)_
 _Personalización: Puedes modificar el script para adaptarlo a tus necesidades específicas._
