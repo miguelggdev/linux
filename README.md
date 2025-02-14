@@ -88,7 +88,7 @@ _Fedora Linux 40_
 ## Contribuyendo 🖇️
 ## Recomendaciones📦
 ### _Ejecución con superusuario_
-__Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario._
+_Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario._
 _Ejecuta el script con sudo._</br>
 ### _Revisión de logs_
 _Usa la tecla q para salir de la visualización de logs._</br>
