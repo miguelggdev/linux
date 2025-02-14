@@ -5,14 +5,14 @@ _MainInfoLinux es un script en Bash creado para proporcionar un diagnóstico com
 ## Scripts bash maininfolinux.sh
 ## Comenzando 🚀
 _El script maininfolinux.sh permite a los usuarios obtener un informe detallado del estado de su sistema Linux, incluyendo:_
-*_Información del sistema (hostname, kernel, arquitectura, etc.)._</br>
-*_Uso de recursos (CPU, memoria, disco)._</br>
-*_Estado de servicios (Apache, Nginx, MySQL, PostgreSQL)._</br>
-*_Puertos abiertos y conexiones de red._</br>
-*_Información de hardware (USBs, dispositivos PCI, tarjetas de red)._</br>
-*_Logs del sistema (últimos errores)._</br>
-*_Tráfico de red (últimos 3 días)._</br>
-*_El script es interactivo: después de mostrar cada sección, pide confirmación para continuar, lo que permite al usuario revisar la información paso a paso._</br>
+* _Información del sistema (hostname, kernel, arquitectura, etc.)._</br>
+* _Uso de recursos (CPU, memoria, disco)._</br>
+* _Estado de servicios (Apache, Nginx, MySQL, PostgreSQL)._</br>
+* _Puertos abiertos y conexiones de red._</br>
+* _Información de hardware (USBs, dispositivos PCI, tarjetas de red)._</br>
+* _Logs del sistema (últimos errores)._</br>
+* _Tráfico de red (últimos 3 días)._</br>
+* _El script es interactivo: después de mostrar cada sección, pide confirmación para continuar, lo que permite al usuario revisar la información paso a paso._</br>
 
 ### Pre-requisitos 📋
 
@@ -86,9 +86,11 @@ _Fedora Linux 40_
 
 ## Contribuyendo 🖇️
 ## Recomendaciones📦
-_Ejecución con superusuario:_
-_Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario._
-_Ejecuta el script con sudo._
-_Revisión de logs: Usa la tecla q para salir de la visualización de logs._
-_Instalación de dependencias: Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.)_
+### _Ejecución con superusuario
+__Algunas secciones (como la verificación de logs o el estado del firewall) requieren permisos de superusuario._
+_Ejecuta el script con sudo._</br>
+### _Revisión de logs
+_Usa la tecla q para salir de la visualización de logs._</br>
+### _Instalación de dependencias_
+Asegúrate de tener instaladas las herramientas necesarias (vnstat, lshw, lsusb, etc.)_
 _Personalización: Puedes modificar el script para adaptarlo a tus necesidades específicas._
