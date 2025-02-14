@@ -28,8 +28,7 @@ Clona el repositorio o descarga el script:
 git clone https://github.com/tu-usuario/maininfolinux.git
 
 ```
-
-```cd maininfolinux
+cd maininfolinux
 
 ```
 Dale permisos de ejecución al script:
@@ -48,7 +47,6 @@ sudo ./maininfolinux.sh
 
 ```
 
-
 ## Interacción
 El script mostrará información en secciones.
 
@@ -57,8 +55,8 @@ Después de cada sección, presiona Enter para continuar.
 Para salir de la visualización de logs, presiona la tecla q.
 
 ## Secciones del Script⚙️
-Información del sistema: 
-Hostname, kernel, arquitectura, etc.
+* Información del sistema: 
+* Hostname, kernel, arquitectura, etc.
 Uso de la CPU: Carga promedio.
 Uso de la memoria: Memoria RAM y swap.
 Uso del disco: Espacio en discos y particiones.
@@ -81,29 +79,9 @@ USBs conectados: Dispositivos USB conectados.
 Dispositivos PCI: Lista de dispositivos PCI.
 Información del hardware: Resumen del hardware del sistema.
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 ## Construido con 🛠️
 
-Fedora Linux 40
+_Fedora Linux 40_
 
 ## Contribuyendo 🖇️
 ## Recomendaciones📦
