@@ -20,6 +20,25 @@ _El script maininfolinux.sh permite a los usuarios obtener un informe detallado 
 _Distribución Linux (optimizado para Fedora)._
 _Permisos de superusuario (root) para algunas funcionalidades._
 _Herramientas comunes instaladas (curl, vnstat, lshw, lsusb, lspci, etc.)_
+vnstat es una herramienta que monitorea el tráfico de red y no viene preinstalada en todas las distribuciones de Linux.
+
+### Instalar vnstat
+```
+sudo dnf install vnstat
+```
+iniciar y habilitar servicio
+```
+sudo systemctl start vnstat
+sudo systemctl enable vnstat
+```
+### Instalar lshw
+```
+sudo dnf install lshw
+```
+Verificar
+```
+lshw -short
+```
 
 ### Instalación 🔧
 
